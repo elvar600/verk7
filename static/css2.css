@@ -1,0 +1,43 @@
+body {
+	max-width: 100em;
+	margin: 1em auto;
+	background-image: linear-gradient(#00ff00, yellow , #00ff00);
+}
+
+.row{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+t
+.row section {
+	border: 0;
+
+}
+
+header, footer {
+	border: 5px solid blue;
+	padding: 1em;
+	border-radius: 1em;
+	margin:25px;
+}
+
+img {
+	width: 40em;
+	height: 40em;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	margin: 1em;
+	border-radius: 1em;
+}
+
+.pd2{
+	padding-left: 2em;
+}
+
+.box {
+	text-align: center;
+	font-size: 2em;
+	border: 3.5px solid blue;
+	margin:15px;
+
+}
